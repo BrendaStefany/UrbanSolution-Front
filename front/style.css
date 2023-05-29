@@ -1,4 +1,4 @@
-.root {
+/*.root {
     --cor0:#51A82F;
     --cor1:#418526;
     --cor2:#67aaee;
@@ -7,7 +7,7 @@
     --cor5:#000000;
 
     --fonte_padrao: Arial, Helvetica, sans-serif;
-}
+}*/
 
 * {
     margin: 0px;
@@ -15,7 +15,8 @@
 }
 
 body {
-    background-image: url(img/backgroud.png);
+    background-image: url(./assets/img/backgroud.png);
+    background-size: cover;
 }
 
 .hearder {
@@ -186,6 +187,7 @@ img {
     color: #ffffff;
     padding: 20px 5px 20px 20px;
     position: absolute;
+    z-index: 9999;
 }
 
 .navbar_submenu_item > p:hover {
@@ -241,10 +243,11 @@ img {
     color: #ffffff;
     box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.521);
     width: 100px;
-    height: 20px;
+    height: 60px;
     margin: -20px 0px 0px 10px;
     padding: 3px 3px 3px 3px; 
     position: absolute;
+    
     
 }
 
@@ -255,12 +258,12 @@ img {
 }
 
 .noticia1 {
-    background-image: url(img/Seguranca-pequena.jpeg);
+    background-image: url(./assets/img/Seguranca-pequena.jpeg);
     width: 180px;
     height: 150px;
     max-width: 1080px;
-    margin-top: -300px;
-    margin-left: 150px;
+    margin-top: -310px;
+    margin-left: 180px;
     
     
 }
@@ -269,7 +272,7 @@ img {
     font-family: Arial, Helvetica, sans-serif;
     color:#ffffff;
     position: relative;
-    top: 155px;
+    top: 140px;
     text-align:left ;
     text-decoration: none;
 }
@@ -279,19 +282,19 @@ img {
 }
 
 .noticia2 {
-    background-image: url(img/limpeza-pequena.jpg);
+    background-image: url(./assets/img/limpeza-pequena.jpg);
     width: 180px;
     height: 150px;
     max-width: 1080px;
     margin-top: -150px;
-    margin-left: 350px;
+    margin-left: 380px;
 }
 
 .reportagem2 > a {
     font-family: Arial, Helvetica, sans-serif;
     color:#ffffff;
     position: relative;
-    top: 155px;
+    top: 140px;
     text-align:left ;
     text-decoration: none;
 }
@@ -301,12 +304,12 @@ img {
 }
 
 .noticia3 {
-    background-image: url(img/Educacao-pequena.jpg);
+    background-image: url(./assets/img/Educacao-pequena.jpg);
     width: 180px;
     height: 150px;
     max-width: 1080px;
     margin-top: -150px;
-    margin-left: 550px;
+    margin-left: 580px;
 }
 
 .titulo > a {
@@ -326,7 +329,7 @@ img {
     font-family: Arial, Helvetica, sans-serif;
     color:#ffffff;
     position: relative;
-    top: 155px;
+    top: 140px;
     text-align:left ;
     text-decoration: none;
 }
