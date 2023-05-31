@@ -210,7 +210,7 @@ img {
     background-color: #ffffff;
     border-radius: 30px;
     width: 300px;
-    height: 320px;
+    height: 360px;
     margin-top: 90px;
     margin-left: 750px;
     position: absolute;
@@ -219,14 +219,77 @@ img {
 }
 
 .rodape_login{
-    margin-top: 290px;
+    margin-top: 2px;
     border-radius: 0px 0px 27px 27px;
     height: 50px;
-    height: 400;
     background-color: #51A82F;
     max-width: 1080px;
     min-width: 300px;
 }
+
+
+.conteudo-login {
+    padding: 20px;
+  }
+  
+  .conteudo-login > h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #3F7AB6;
+  }
+  
+  .conteudo-login > input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  
+  button.btn-entrar {
+    background-color: #3F7AB6;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button.btn-entrar:hover {
+    background-color: #0B3A6A;
+  }
+  
+  .rodape_login > p {
+    position: absolute;
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 40px;
+    color: white;
+  }
+  
+  .rodape_login > p > a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .rodape_login > p > a:hover {
+    text-decoration: underline;
+  }
+
+  .manter-logado {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .manter-logado input[type="checkbox"] {
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .manter-logado label {
+    font-size: 14px;
+  }
+  
 
 .corpo_acesso_rapido {
     background-color: #51A82F;
@@ -247,10 +310,41 @@ img {
     margin: -20px 0px 0px 10px;
     padding: 3px 3px 3px 3px; 
     position: absolute;
-    
-    
 }
 
+.list1{
+    list-style: none;
+    margin-top: 55px;
+    float:left;
+    padding-left:20px;
+}
+  
+.list1 li {
+    display: flex;
+    align-items: center;
+}
+  
+.list1 input{
+    margin-top: -5px;
+    margin-right: 5px;
+}
+
+.list2{
+    list-style: none;
+    margin-top: 55px;
+    float:right;
+    padding-right:20px;
+}
+
+.list2 li {
+    display: flex;
+    align-items: center;
+  }
+
+  .list2 input{
+    margin-top: -5px;
+    margin-right: 5px;
+}
 
 .noticias {
     margin-top: 50px;
