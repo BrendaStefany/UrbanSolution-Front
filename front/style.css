@@ -10,6 +10,7 @@
 }*/
 
 * {
+    
     margin: 0px;
     padding: 0px;
 }
@@ -17,6 +18,7 @@
 body {
     background-image: url(./assets/img/backgroud.png);
     background-size: cover;
+    
 }
 
 .hearder {
@@ -59,11 +61,15 @@ body {
     max-width: 1300px; /*Valor antigo de 1080px*/
     min-width: 90px;
 }
+.img_logo {
+    margin-left: 50px;
+    width: auto;
+    height: auto;
+}
 
-img {
-    margin-left: 90px;
-    width: 100px;
-    height: 90px;
+.img_carousel {
+    
+
 }
 
 /*.logo_tamanho {
@@ -227,6 +233,16 @@ img {
     min-width: 300px;
 }
 
+.cadastro {
+    background-color: rgb(163, 162, 162);
+    border-radius: 5px;
+    padding: 5px 10px 10px 10px;
+}
+
+.cadastro:hover {
+    background-color: grey;
+    
+}
 
 .conteudo-login {
     padding: 20px;
@@ -271,10 +287,6 @@ img {
     text-decoration: none;
   }
   
-  .rodape_login > p > a:hover {
-    text-decoration: underline;
-  }
-
   .manter-logado {
     display: flex;
     align-items: center;
@@ -351,81 +363,115 @@ img {
     max-width: 1080px;
 }
 
-.noticia1 {
-    background-image: url(./assets/img/Seguranca-pequena.jpeg);
-    width: 180px;
-    height: 150px;
-    max-width: 1080px;
-    margin-top: -310px;
-    margin-left: 180px;
-    
-    
+.foto_segurançapq {
+    position: absolute;
+    top: 500px;
+    left: 70px;
 }
+
+
 
 .reportagem1 > a {
     font-family: Arial, Helvetica, sans-serif;
     color:#ffffff;
-    position: relative;
-    top: 140px;
+    position: absolute;
+    top: 670px;
+    left: 65px;
     text-align:left ;
     text-decoration: none;
+    width: 200px;
+    
+    
+}
+
+.reportagem1 > p {
+    width: px;
+    word-wrap: break-word;
+    background-color: #316a0b;
 }
 
 .reportagem1 > a:hover {
     text-decoration: underline;
 }
 
-.noticia2 {
-    background-image: url(./assets/img/limpeza-pequena.jpg);
-    width: 180px;
-    height: 150px;
-    max-width: 1080px;
-    margin-top: -150px;
-    margin-left: 380px;
+.foto_limpezapq {
+    position: absolute;
+    top: 500px;
+    left: 285px;
 }
 
 .reportagem2 > a {
     font-family: Arial, Helvetica, sans-serif;
     color:#ffffff;
-    position: relative;
-    top: 140px;
+    position: absolute;
+    top: 670px;
+    left: 285px;
     text-align:left ;
     text-decoration: none;
+    width: 200px;
 }
 
 .reportagem2 > a:hover {
     text-decoration: underline;
 }
 
-.noticia3 {
-    background-image: url(./assets/img/Educacao-pequena.jpg);
-    width: 180px;
-    height: 150px;
-    max-width: 1080px;
-    margin-top: -150px;
-    margin-left: 580px;
-}
-
-.titulo > a {
+.titulo1 > a {
     font-family: Arial, Helvetica, sans-serif;
     color: #68d33e;
     text-decoration: none;
-    position: relative;
-    top: 150px;
+    position: absolute;
+    top: 650px;
+    left: 65px;
     text-align: left;
 }
 
-.titulo > a:hover {
+.titulo1 > a:hover {
     text-decoration: underline;
+}
+
+.titulo2 > a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #68d33e;
+    text-decoration: none;
+    position: absolute;
+    top: 650px;
+    left: 283px;
+    text-align: left;
+}
+
+.titulo2 > a:hover {
+    text-decoration: underline;
+}
+
+.titulo3 > a {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #68d33e;
+    text-decoration: none;
+    position: absolute;
+    top: 650px;
+    left: 490px;
+    text-align: left;
+}
+
+.titulo3 > a:hover {
+    text-decoration: underline;
+}
+
+.foto_educacaopq {
+    position: absolute;
+    top: 500px;
+    left: 490px;
 }
 
 .reportagem3 > a {
     font-family: Arial, Helvetica, sans-serif;
     color:#ffffff;
-    position: relative;
-    top: 140px;
+    position: absolute;
+    top: 670px;
+    left: 490px;
     text-align:left ;
     text-decoration: none;
+    width: 190px;
 }
 
 .reportagem3 > a:hover {
@@ -437,6 +483,7 @@ img {
 
 .carousel-item {
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
 .textos > p {
@@ -457,9 +504,8 @@ img {
     margin: auto;
     text-align:center;
     background-color: #3F7AB6;
-    height: 750px;
+    height: 760px;
     width: 100%;
     min-width: 300px;
-    max-width: 1300px; /*Valor antigo de 1080px*/ /* Ajuste a largura m?xima conforme necess?rio */
-
+    max-width: 1300px; /*Valor antigo de 1080px*/ /* Ajuste a largura m?xima conforme necess?rio*/ 
 }
